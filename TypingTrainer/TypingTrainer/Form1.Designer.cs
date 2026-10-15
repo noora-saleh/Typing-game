@@ -39,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(193, 141);
+            this.label1.Location = new System.Drawing.Point(124, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(416, 46);
             this.label1.TabIndex = 0;
@@ -49,9 +49,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(151, 277);
+            this.button1.Location = new System.Drawing.Point(132, 277);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 47);
+            this.button1.Size = new System.Drawing.Size(115, 47);
             this.button1.TabIndex = 1;
             this.button1.Text = "Easy";
             this.button1.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(522, 277);
+            this.button2.Location = new System.Drawing.Point(427, 277);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 47);
+            this.button2.Size = new System.Drawing.Size(113, 47);
             this.button2.TabIndex = 2;
             this.button2.Text = "Hard";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,16 +75,17 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(795, 481);
+            this.panel1.Size = new System.Drawing.Size(696, 481);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(795, 481);
+            this.ClientSize = new System.Drawing.Size(696, 481);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
