@@ -33,14 +33,3 @@ C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form4.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Properties.Resources.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csproj.GenerateResource.Cache
-D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.exe.config
-D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.exe
-D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.pdb
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csprojAssemblyReference.cache
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form1.resources
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form3.resources
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form4.resources
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Properties.Resources.resources
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csproj.GenerateResource.cache
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.exe
-D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.pdb
