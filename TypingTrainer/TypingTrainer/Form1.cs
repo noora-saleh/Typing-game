@@ -16,7 +16,7 @@ namespace TypingTrainer
         public Form1()
         {
             InitializeComponent();
-            this.BackColor = Color.FromArgb(255, 205, 193);
+            this.BackColor = Color.FromArgb(105,065,140);
             button1.BackColor = Color.FromArgb(125, 153, 163);
             button1.UseVisualStyleBackColor = false;
             button1.FlatStyle = FlatStyle.Flat;
@@ -50,6 +50,11 @@ namespace TypingTrainer
             Form4 test = new Form4("Hard");
             test.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
