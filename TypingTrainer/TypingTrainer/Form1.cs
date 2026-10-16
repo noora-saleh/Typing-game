@@ -17,15 +17,27 @@ namespace TypingTrainer
         {
             InitializeComponent();
             this.BackColor = Color.FromArgb(255, 205, 193);
+            //Easy button
             button1.BackColor = Color.FromArgb(125, 153, 163);
-            button1.UseVisualStyleBackColor = false;
-            button1.FlatStyle = FlatStyle.Flat;
-            button2.UseVisualStyleBackColor = false;
-            button2.FlatAppearance.BorderSize = 0;
+           
+            //Hard button
             button2.BackColor = Color.FromArgb(125, 153, 163);
-            button2.FlatStyle = FlatStyle.Flat;
-            button1.FlatAppearance.BorderSize = 0;
+            
+
             label1.ForeColor = Color.FromArgb(125, 153, 163);
+
+            //ألوان زر الخروج
+            btnExit.BackColor = Color.FromArgb(125, 153, 163);
+            btnExit.ForeColor = Color.White; 
+
+
+            //ألوان زر About
+            btnAbout.BackColor = Color.FromArgb(125, 153, 163);
+            btnAbout.ForeColor = Color.White;
+
+            lblInstruction.ForeColor = Color.FromArgb(125, 153, 163);
+
+          
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,5 +63,27 @@ namespace TypingTrainer
             test.Show();
             this.Hide();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            string message = "A challenge to type words quickly. Developed as part of the Advanced Applications Programming course requirements " ;
+
+            MessageBox.Show(message, "حول البرنامج (About)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void lblInstruction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+  
+
+
+
     }
 }
