@@ -34,8 +34,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,30 +106,26 @@
             this.panel1.TabIndex = 5;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cooper Black", 12F);
+            this.label4.Location = new System.Drawing.Point(272, 144);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 23);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "label4";
+            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Cooper Black", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.button2.Location = new System.Drawing.Point(261, 352);
-=======
-            this.button2.Location = new System.Drawing.Point(218, 352);
->>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
+            this.button2.Location = new System.Drawing.Point(229, 334);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 43);
             this.button2.TabIndex = 4;
             this.button2.Text = "back to main";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cooper Black", 12F);
-            this.label4.Location = new System.Drawing.Point(301, 144);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 23);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "label4";
             // 
             // Form3
             // 

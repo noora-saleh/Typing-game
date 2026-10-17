@@ -43,13 +43,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-<<<<<<< HEAD
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(241, 77);
-=======
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(124, 133);
->>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
+            this.label1.Location = new System.Drawing.Point(199, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(352, 46);
             this.label1.TabIndex = 0;
@@ -58,19 +53,12 @@
             // 
             // button1
             // 
-<<<<<<< HEAD
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(288, 201);
+            this.button1.Location = new System.Drawing.Point(220, 201);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(247, 47);
-=======
-            this.button1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(132, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 47);
->>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
             this.button1.TabIndex = 1;
             this.button1.Text = "Easy";
             this.button1.UseVisualStyleBackColor = false;
@@ -78,19 +66,12 @@
             // 
             // button2
             // 
-<<<<<<< HEAD
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(288, 254);
+            this.button2.Location = new System.Drawing.Point(220, 254);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(247, 47);
-=======
-            this.button2.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(427, 277);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 47);
->>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
             this.button2.TabIndex = 2;
             this.button2.Text = "Hard";
             this.button2.UseVisualStyleBackColor = false;
@@ -118,7 +99,7 @@
             // 
             this.picLogo.ErrorImage = null;
             this.picLogo.Image = global::TypingTrainer.Properties.Resources.logo;
-            this.picLogo.Location = new System.Drawing.Point(177, 75);
+            this.picLogo.Location = new System.Drawing.Point(135, 75);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(58, 48);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -129,7 +110,7 @@
             // 
             this.lblInstruction.AutoSize = true;
             this.lblInstruction.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblInstruction.Location = new System.Drawing.Point(282, 143);
+            this.lblInstruction.Location = new System.Drawing.Point(214, 143);
             this.lblInstruction.Name = "lblInstruction";
             this.lblInstruction.Size = new System.Drawing.Size(253, 32);
             this.lblInstruction.TabIndex = 5;
@@ -142,7 +123,7 @@
             this.btnAbout.FlatAppearance.BorderSize = 0;
             this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbout.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnAbout.Location = new System.Drawing.Point(368, 316);
+            this.btnAbout.Location = new System.Drawing.Point(304, 316);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(75, 23);
             this.btnAbout.TabIndex = 4;
@@ -154,7 +135,7 @@
             // 
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Location = new System.Drawing.Point(368, 345);
+            this.btnExit.Location = new System.Drawing.Point(304, 345);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 3;
@@ -191,4 +172,3 @@
         private System.Windows.Forms.PictureBox picLogo;
     }
 }
-
