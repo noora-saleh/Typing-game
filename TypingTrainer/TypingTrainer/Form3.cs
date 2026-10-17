@@ -31,7 +31,12 @@ namespace TypingTrainer
             label1.Text = "time :" + min.ToString("00") + ":" + sec.ToString("00");
             label2.Text = "correct:" + correct;
             label3.Text = "wrong:" + wrong;
-            foreach(string item in wrongDetails)
+            string level = "";
+            if (correct <= 1) { level = "Level : low"; }
+            else if (correct > 1 && correct < 5) { level = "Level : medium"; }
+            else { level = "Level : excellent"; }
+            label4.Text = level;
+            foreach (string item in wrongDetails)
             {
                 listBox1.Items.Add(item);
             }
