@@ -63,9 +63,15 @@ namespace TypingTrainer
         void PrepareTest()
         {
             if (level == "Easy")
+            {
                 words = easyWords.ToList();
+                remainingSeconds = 30;
+            }
             else
+            {
                 words = hardWords.ToList();
+                remainingSeconds = 60;
+            }
 
             Random rnd = new Random();
             words = words.OrderBy(x => rnd.Next()).ToList();
@@ -73,9 +79,12 @@ namespace TypingTrainer
             index = 0;
             correct = 0;
             wrong = 0;
-            remainingSeconds = 60;
 
-            timeLbl.Text = "Time: 01:00";
+            if (level == "Easy")
+                timeLbl.Text = "Time: 00:30";
+            else
+                timeLbl.Text = "Time: 01:00";
+
             counterLbl.Text = "1 / " + words.Count;
             wordLbl.Text = words[index];
             accuracyBtn.Text = "Accuracy: 0%";
@@ -177,7 +186,11 @@ namespace TypingTrainer
         void EndTest()
         {
             timer1.Stop();
-            Form3 result = new Form3(60 - remainingSeconds, correct, wrong, wrongDetails);
+            
+            int totalTime = (level == "Easy") ? 30 : 60;
+            int timeTaken = totalTime - remainingSeconds;
+            
+            Form3 result = new Form3(timeTaken, correct, wrong, wrongDetails);
             result.Show();
             this.Close();
         }
@@ -193,6 +206,6 @@ namespace TypingTrainer
         private void label1_Click(object sender, EventArgs e) { }
         private void label2_Click(object sender, EventArgs e) { }
         private void label3_Click(object sender, EventArgs e) { }
-        private void nextWordBtn_Click(object sender, EventArgs e){}
+        private void nextWordBtn_Click(object sender, EventArgs e) { }
     }
 }
