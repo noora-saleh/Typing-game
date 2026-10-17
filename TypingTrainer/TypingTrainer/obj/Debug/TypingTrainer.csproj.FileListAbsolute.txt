@@ -33,6 +33,7 @@ C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form4.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Properties.Resources.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 D:\IT4\projects\Typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.exe.config
 D:\IT4\projects\Typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.exe
 D:\IT4\projects\Typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.pdb
@@ -55,3 +56,16 @@ C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\Typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form4.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\Typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Properties.Resources.resources
 C:\Users\WinDows\OneDrive\Dokumente\Visual Studio 2015\Projects\TypingTrainer (1)\TypingTrainer\Typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csproj.GenerateResource.Cache
+=======
+D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.exe.config
+D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.exe
+D:\typing-game\TypingTrainer\TypingTrainer\bin\Debug\TypingTrainer.pdb
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csprojAssemblyReference.cache
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form1.resources
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form3.resources
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Form4.resources
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.Properties.Resources.resources
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.csproj.GenerateResource.cache
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.exe
+D:\typing-game\TypingTrainer\TypingTrainer\obj\Debug\TypingTrainer.pdb
+>>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")

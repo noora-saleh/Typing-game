@@ -16,8 +16,12 @@ namespace TypingTrainer
         public Form1()
         {
             InitializeComponent();
+<<<<<<< HEAD
             this.BackColor = Color.FromArgb(255, 205, 193);
             //Easy button
+=======
+            this.BackColor = Color.FromArgb(105,065,140);
+>>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
             button1.BackColor = Color.FromArgb(125, 153, 163);
            
             //Hard button
@@ -64,6 +68,7 @@ namespace TypingTrainer
             this.Hide();
         }
 
+<<<<<<< HEAD
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -85,5 +90,11 @@ namespace TypingTrainer
 
 
 
+=======
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+>>>>>>> parent of 8006faa (Revert "Merge pull request #1 from noora-saleh/form4-sara")
     }
 }
