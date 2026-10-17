@@ -16,19 +16,20 @@ namespace TypingTrainer
         public Form1()
         {
             InitializeComponent();
+
             this.BackColor = Color.FromArgb(255, 205, 193);
             //Easy button
             button1.BackColor = Color.FromArgb(125, 153, 163);
-           
+
             //Hard button
             button2.BackColor = Color.FromArgb(125, 153, 163);
-            
+
 
             label1.ForeColor = Color.FromArgb(125, 153, 163);
 
             //ألوان زر الخروج
             btnExit.BackColor = Color.FromArgb(125, 153, 163);
-            btnExit.ForeColor = Color.White; 
+            btnExit.ForeColor = Color.White;
 
 
             //ألوان زر About
@@ -37,7 +38,7 @@ namespace TypingTrainer
 
             lblInstruction.ForeColor = Color.FromArgb(125, 153, 163);
 
-          
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -71,7 +72,7 @@ namespace TypingTrainer
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            string message = "A challenge to type words quickly. Developed as part of the Advanced Applications Programming course requirements " ;
+            string message = "A challenge to type words quickly. Developed as part of the Advanced Applications Programming course requirements ";
 
             MessageBox.Show(message, "حول البرنامج (About)", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -81,9 +82,9 @@ namespace TypingTrainer
 
         }
 
-  
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
-
-
+        }
     }
 }
